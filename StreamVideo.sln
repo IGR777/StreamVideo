@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamVideo", "StreamVideo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamVideo.iOS", "StreamVideo.iOS\StreamVideo.iOS.csproj", "{54821E9E-F16B-4886-93DE-BA0A22FAE9E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamVideo.Droid", "StreamVideo.Droid\StreamVideo.Droid.csproj", "{6BBF83E0-3675-4136-A957-A4FEB229FB01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,5 +41,17 @@ Global
 		{54821E9E-F16B-4886-93DE-BA0A22FAE9E0}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{54821E9E-F16B-4886-93DE-BA0A22FAE9E0}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{54821E9E-F16B-4886-93DE-BA0A22FAE9E0}.Debug|iPhone.Build.0 = Debug|iPhone
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Release|iPhone.Build.0 = Release|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{6BBF83E0-3675-4136-A957-A4FEB229FB01}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

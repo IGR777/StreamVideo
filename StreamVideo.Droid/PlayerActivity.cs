@@ -17,7 +17,6 @@ namespace StreamVideo.Droid
             SetContentView(Resource.Layout.Player);
 
             VideoView vidView = (VideoView)FindViewById(Resource.Id.myVideo);
-            //var vidAddress = "http://gourl.su/ud?UKROFASCHIZM.m3u8";
             var vidAddress = Intent.GetStringExtra("url"); 
             var vidUri = Uri.Parse(vidAddress);
 

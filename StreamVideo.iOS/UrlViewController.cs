@@ -14,6 +14,8 @@ namespace StreamVideo.iOS
             NavigationController.NavigationBar.Translucent = false;
             UrlTextField.ClearButtonMode = UITextFieldViewMode.WhileEditing;
 
+            UrlTextField.Text = "http://192.241.250.62:1935/live/wb.stream/playlist.m3u8";
+
             NavigationItem.RightBarButtonItem = new UIBarButtonItem(UIBarButtonSystemItem.Play, (sender, e) =>
             {
                 var url = Foundation.NSUrl.FromString(UrlTextField.Text);

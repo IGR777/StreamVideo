@@ -22,7 +22,7 @@ namespace StreamVideo.Droid
             var streamURL = FindViewById<EditText>(Resource.Id.streamURL);
             var button = FindViewById<Button>(Resource.Id.playButton);
 
-            streamURL.Text = "http://gourl.su/ud?UKROFASCHIZM.m3u8";
+            streamURL.Text = "http://192.241.250.62:1935/live/wb.stream/playlist.m3u8";
 
             button.Click += (sender, e) =>
             {
